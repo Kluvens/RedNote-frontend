@@ -1,0 +1,14 @@
+appId: com.rednote.desktop
+productName: RedNote
+directories:
+  buildResources: build
+  output: release
+files:
+  - out/**/*
+  - package.json
+mac:
+  target: dmg
+win:
+  target: nsis
+linux:
+  target: AppImage
